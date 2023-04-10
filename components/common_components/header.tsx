@@ -24,13 +24,13 @@ function Header() {
                             </div>
                         </div>
                         <div className="header__area-topbar-right">
-                            <div className="header__area-topbar-right-language">
+                            {/* <div className="header__area-topbar-right-language">
                                 <select name="select">
                                     <option value={1}>English</option>
                                     <option value={2}>Hindi</option>
                                     <option value={3}>Tamil</option>
                                 </select>
-                            </div>
+                            </div> */}
                             <div className="header__area-topbar-right-social">
                                 <ul>
                                     <li>
@@ -71,61 +71,17 @@ function Header() {
                         </div>
                         <div className="header__area-menubar-main-menu">
                             <ul id="mobilemenu">
-                                <li className="menu-item-has-children">
+                                <li>
                                     <a href="#">Home</a>
-                                    <ul className="sub-menu">
-                                        <li>
-                                            <a href="index.html">Home 01</a>
-                                        </li>
-                                    </ul>
                                 </li>
-                                <li className="menu-item-has-children">
+                                <li>
                                     <a href="#">Services</a>
-                                    <ul className="sub-menu">
-                                        <li>
-                                            <a href="services.html">Services</a>
-                                        </li>
-                                        <li>
-                                            <a href="services-details.html">Services Details</a>
-                                        </li>
-                                    </ul>
                                 </li>
-                                <li className="menu-item-has-children">
-                                    <a href="#">Page</a>
-                                    <ul className="sub-menu">
-                                        <li>
-                                            <a href="about.html">About Us</a>
-                                        </li>
-                                        <li>
-                                            <a href="pricing.html">Pricing</a>
-                                        </li>
-                                        <li>
-                                            <a href="faq.html">FAQ</a>
-                                        </li>
-                                        <li>
-                                            <a href="project.html">Projects</a>
-                                        </li>
-                                        <li>
-                                            <a href="project-details.html">Projects Details</a>
-                                        </li>
-                                        <li>
-                                            <a href="team.html">Team</a>
-                                        </li>
-                                    </ul>
+                                <li>
+                                    <a href="#">Projects</a>
                                 </li>
-                                <li className="menu-item-has-children">
+                                <li>
                                     <a href="#">News</a>
-                                    <ul className="sub-menu">
-                                        <li>
-                                            <a href="news-grid.html">News Grid</a>
-                                        </li>
-                                        <li>
-                                            <a href="news-standard.html">News Standard</a>
-                                        </li>
-                                        <li>
-                                            <a href="news-single.html">News Single</a>
-                                        </li>
-                                    </ul>
                                 </li>
                                 <li>
                                     <a href="contact.html">Contact</a>

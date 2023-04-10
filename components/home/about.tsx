@@ -1,3 +1,6 @@
+import Image from "next/image";
+import aboutimg from "../img/about.jpg"
+
 export default function About() {
     return (
         <>
@@ -14,7 +17,7 @@ export default function About() {
                                     <p>Years Experience</p>
                                 </div>
                                 <div className="about__area-left-image">
-                                    <img src="assets/img/about.jpg" alt="" />
+                                    <Image src={aboutimg} alt="" />
                                 </div>
                             </div>
                         </div>
