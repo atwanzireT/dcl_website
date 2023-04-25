@@ -1,8 +1,8 @@
 import Image from "next/image"
-import img1 from "../img/monitoring-1.jpg"
-import img2 from "../img/monitoring-2.jpg"
-import img3 from "../img/monitoring-3.jpg"
-import img4 from "../img/monitoring-4.jpg"
+import img1 from "../img/service.jpg"
+import img2 from "../img/service6.jpg"
+import img3 from "../img/service5.jpg"
+import img4 from "../img/service4.png"
 
 // const img4 =  require("../img/monitoring-4.jpg");
 

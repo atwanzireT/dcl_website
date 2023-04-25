@@ -11,13 +11,13 @@ function Header() {
                                     <li>
                                         <a href="#">
                                             <i className="flaticon-placeholder" />
-                                            9FW6+599 , United Kingdom
+                                            BOMA , Mbarara Uganda
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#">
                                             <i className="flaticon-email" />
-                                            info.sarfox@gmail.com
+                                            info.dcl@gmail.com
                                         </a>
                                     </li>
                                 </ul>

@@ -1,3 +1,7 @@
+import Image from "next/image";
+import img from "../img/service3.jpg"
+
+
 export default function WhyUs() {
     return (
         <>
@@ -12,13 +16,17 @@ export default function WhyUs() {
                 />
                 <div className="container">
                     <div className="row">
-                        <div className="col-xl-6 col-lg-6" />
+                        <div className="col-xl-6 col-lg-6">
+                        <div className="about__area-left-image">
+                            <Image src={img} alt="" />
+                        </div>
+                        </div>
                         <div className="col-xl-6 col-lg-6">
                             <div className="s-table">
                                 <div className="s-tablec">
                                     <div className="choose__ua-right">
                                         <p className="section-top">Why Choose Us</p>
-                                        <h2 className="mb-35">Examples of information technology</h2>
+                                        <h2 className="mb-35">Our Information technology</h2>
                                         <div className="choose__ua-right-list">
                                             <div className="row">
                                                 <div className="col-sm-6 mb-30">
