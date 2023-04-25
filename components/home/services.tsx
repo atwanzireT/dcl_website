@@ -23,7 +23,7 @@ export default function Services() {
                         <div className="col-xl-4 col-lg-4 col-md-6 lg-mb-30">
                             <div className="services__area-item">
                                 <div className="services__area-item-icon">
-                                    <Image src={service_1} alt="" />
+                                    <Image src={service_1} alt="" width={500} height={500} />
                                 </div>
                                 <h3>
                                     <a href="services-details.html">Cyber Security</a>
@@ -35,7 +35,7 @@ export default function Services() {
                         <div className="col-xl-4 col-lg-4 col-md-6 md-mb-30">
                             <div className="services__area-item">
                                 <div className="services__area-item-icon">
-                                    <Image src={service_2} alt="" />
+                                    <Image src={service_2} alt="" width={500} height={500}/>
                                 </div>
                                 <h3>
                                     <a href="services-details.html">Cloud Solutions</a>
@@ -47,7 +47,7 @@ export default function Services() {
                         <div className="col-xl-4 col-lg-4 col-md-6">
                             <div className="services__area-item">
                                 <div className="services__area-item-icon">
-                                    <Image src={service_1} alt="" />
+                                    <Image src={service_3} alt="" width={500} height={500}/>
                                 </div>
                                 <h3>
                                     <a href="services-details.html">Data Recovery</a>

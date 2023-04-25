@@ -35,7 +35,7 @@ export default function About() {
                                 <div className="about__area-right-list">
                                     <div className="about__area-right-list-item">
                                         <div className="about__area-right-list-item-icon">
-                                            <img src="assets/img/icon/about-1.png" alt="" />
+                                            <Image src="assets/img/icon/about-1.png" alt="" />
                                         </div>
                                         <div className="about__area-right-list-item-text">
                                             <h4>Business improvement</h4>

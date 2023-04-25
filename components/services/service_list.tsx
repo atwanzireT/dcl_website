@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Services_List() {
     return (
         <>
@@ -34,7 +36,7 @@ export default function Services_List() {
                         <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
                             <div className="services__area-item">
                                 <div className="services__area-item-icon">
-                                    <img src="assets/img/icon/services-1.png" alt="" />
+                                    <Image src="assets/img/icon/services-1.png" alt="" />
                                 </div>
                                 <h3>
                                     <a href="services-details.html">Cyber Security</a>
@@ -46,7 +48,7 @@ export default function Services_List() {
                         <div className="col-xl-4 col-lg-4 col-md-6 md-mb-30">
                             <div className="services__area-item">
                                 <div className="services__area-item-icon">
-                                    <img src="assets/img/icon/services-2.png" alt="" />
+                                    <Image src="assets/img/icon/services-2.png" alt="" />
                                 </div>
                                 <h3>
                                     <a href="services-details.html">Cloud Solutions</a>
@@ -58,7 +60,7 @@ export default function Services_List() {
                         <div className="col-xl-4 col-lg-4 col-md-6 lg-mb-30">
                             <div className="services__area-item">
                                 <div className="services__area-item-icon">
-                                    <img src="assets/img/icon/services-3.png" alt="" />
+                                    <Image src="assets/img/icon/services-3.png" alt="" />
                                 </div>
                                 <h3>
                                     <a href="services-details.html">Data Recovery</a>
@@ -70,7 +72,7 @@ export default function Services_List() {
                         <div className="col-xl-4 col-lg-4 col-md-6 md-mb-30">
                             <div className="services__area-item">
                                 <div className="services__area-item-icon">
-                                    <img src="assets/img/icon/services-4.png" alt="" />
+                                    <Image src="assets/img/icon/services-4.png" alt="" />
                                 </div>
                                 <h3>
                                     <a href="services-details.html">Business Support</a>
@@ -82,7 +84,7 @@ export default function Services_List() {
                         <div className="col-xl-4 col-lg-4 col-md-6 md-mb-30">
                             <div className="services__area-item">
                                 <div className="services__area-item-icon">
-                                    <img src="assets/img/icon/services-5.png" alt="" />
+                                    <Image src="assets/img/icon/services-5.png" alt="" />
                                 </div>
                                 <h3>
                                     <a href="services-details.html">Development</a>
@@ -94,7 +96,7 @@ export default function Services_List() {
                         <div className="col-xl-4 col-lg-4 col-md-6">
                             <div className="services__area-item">
                                 <div className="services__area-item-icon">
-                                    <img src="assets/img/icon/services-6.png" alt="" />
+                                    <Image src="assets/img/icon/services-6.png" alt="" />
                                 </div>
                                 <h3>
                                     <a href="services-details.html">Network Cabling</a>

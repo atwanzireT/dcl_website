@@ -15,7 +15,7 @@ export default function Monitor() {
                     <div className="row">
                         <div className="col-xl-3 col-lg-4 col-md-6 xl-mb-30">
                             <div className="project__area-item">
-                                <Image src={img1} alt="" />
+                                <Image src={img1} alt="" width={500} height={500} />
                                 <div className="project__area-overly">
                                     <h3>
                                         <a href="project-details.html">Cyber security</a>
@@ -32,7 +32,7 @@ export default function Monitor() {
                         </div>
                         <div className="col-xl-3 col-lg-4 col-md-6 xl-mb-30">
                             <div className="project__area-item project__area-item-hover">
-                                <Image src={img2} alt="" />
+                                <Image src={img2} alt="" width={500} height={500}/>
                                 <div className="project__area-overly">
                                     <h3>
                                         <a href="project-details.html">Data Recovery</a>
@@ -49,7 +49,7 @@ export default function Monitor() {
                         </div>
                         <div className="col-xl-3 col-lg-4 col-md-6 xl-mb-30">
                             <div className="project__area-item">
-                                <Image src={img4} alt="" />
+                                <Image src={img4} alt="" width={500} height={500}/>
                                 <div className="project__area-overly">
                                     <h3>
                                         <a href="project-details.html">IT Management</a>
@@ -66,7 +66,7 @@ export default function Monitor() {
                         </div>
                         <div className="col-xl-3 col-lg-4 col-md-6">
                             <div className="project__area-item">
-                                <Image src={img3} alt="" />
+                                <Image src={img3} alt="" width={500} height={500}/>
                                 <div className="project__area-overly">
                                     <h3>
                                         <a href="project-details.html">Cloud Services</a>
