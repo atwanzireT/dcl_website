@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 function Header() {
     return (
         <>
@@ -122,12 +124,12 @@ function Header() {
                     {/* Hamburger Menu Start */}
                     <div className="hamburger-popup">
                         <div className="hamburger-close-btn">
-                            <img src="assets/img/close.png" alt="" />
+                            <Image src="assets/img/close.png" alt="" />
                         </div>
                         <div className="menu-box">
                             <div className="hamburger-popup-logo">
                                 <a href="index.html">
-                                    <img src="assets/img/logo.png" alt="" />
+                                    <Image src="assets/img/logo.png" alt="" />
                                 </a>
                             </div>
                             <p className="pb-30">
@@ -136,7 +138,7 @@ function Header() {
                                 Maecenas diam justo, consectetur vitae enim non, maximus venenatis
                                 nisl. Pellentesque habitant morbi tristique senectus et
                             </p>
-                            <img src="assets/img/bar.jpg" alt="" />
+                            <Image src="assets/img/bar.jpg" alt="" />
                             <div className="contact__info">
                                 <h3 className="mb-25">Contact Info</h3>
                                 <div className="contact__info-list">

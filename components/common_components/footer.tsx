@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Footer() {
     return (
         <>
@@ -12,7 +14,7 @@ export default function Footer() {
                             <div className="footer__area-footer-widget">
                                 <div className="footer__area-logo">
                                     <a href="index.html">
-                                        <img src="assets/img/footer-logo.png" alt="" />
+                                        <Image src="assets/img/footer-logo.png" alt=""  />
                                     </a>
                                 </div>
                                 <div className="footer__area-content">
@@ -91,7 +93,6 @@ export default function Footer() {
                                         type="email"
                                         name="email"
                                         placeholder="Email"
-                                        required="required"
                                     />
                                     <button type="submit" className="theme-banner-btn">
                                         submit Now

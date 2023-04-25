@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Contact_Body() {
     return (
         <>
@@ -34,7 +36,7 @@ export default function Contact_Body() {
                         >
                             <div className="contact__list-item">
                                 <div className="contact__list-item-icon">
-                                    <img src="assets/img/icon/locations.png" alt="" />
+                                    <Image src="assets/img/icon/locations.png" alt="" />
                                 </div>
                                 <p>Sandell St, London SE1 8NH, United Kingdom</p>
                             </div>
@@ -45,7 +47,7 @@ export default function Contact_Body() {
                         >
                             <div className="contact__list-item">
                                 <div className="contact__list-item-icon">
-                                    <img src="assets/img/icon/phone-call.png" alt="" />
+                                    <Image src="assets/img/icon/phone-call.png" alt="" />
                                 </div>
                                 <a href="tel:+123-568-4758">
                                     <p>+123-568-4758</p>
@@ -61,7 +63,7 @@ export default function Contact_Body() {
                         >
                             <div className="contact__list-item">
                                 <div className="contact__list-item-icon">
-                                    <img src="assets/img/icon/email.png" alt="" />
+                                    <Image src="assets/img/icon/email.png" alt="" />
                                 </div>
                                 <a href="#">
                                     <p>beorx@gmail.com</p>

@@ -20,7 +20,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <script type="text/javascript" src='/scripts/custom.js'></script>
+        {/* <script type="text/javascript" src='/scripts/custom.js'></script>
         <script type="text/javascript" src='/scripts/bootstrap.min.js'></script>
         <script type="text/javascript" src='/scripts/jquery-3.6.0.min.js'></script>
         <script type="text/javascript" src='/scripts/jquery.counterup.min.js'></script>
@@ -31,7 +31,7 @@ export default function Home() {
         <script type="text/javascript" src='/scripts/popper.min.js'></script>
         <script type="text/javascript" src='/scripts/progressbar.min.js'></script>
         <script type="text/javascript" src='/scripts/swiper-bundle.min.js'></script>
-        <script type="text/javascript" src='/scripts/wow.min.js'></script>
+        <script type="text/javascript" src='/scripts/wow.min.js'></script> */}
       </Head>
       <Header/>
       <Banner/>
