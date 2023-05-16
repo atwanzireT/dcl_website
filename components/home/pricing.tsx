@@ -20,7 +20,7 @@ export default function Pricing() {
                                 <div className="pricing__area-price mb-60">
                                     <ul className="d-inline-flex align-items-center t-left">
                                         <li className="pricing__area-item-icon">
-                                            <Image src="assets/img/icon/price-1.png" alt="" />
+                                            {/* <Image src="assets/img/icon/price-1.png" alt="" /> */}
                                         </li>
                                         <li>
                                             <h3>Basic</h3>
@@ -56,7 +56,7 @@ export default function Pricing() {
                                 <div className="pricing__area-price mb-60">
                                     <ul className="d-inline-flex align-items-center t-left">
                                         <li className="pricing__area-item-icon">
-                                            <Image src="assets/img/icon/price-2.png" alt="" />
+                                            {/* <Image src="assets/img/icon/price-2.png" alt="" /> */}
                                         </li>
                                         <li>
                                             <h3>Standard</h3>
@@ -92,7 +92,7 @@ export default function Pricing() {
                                 <div className="pricing__area-price mb-60">
                                     <ul className="d-inline-flex align-items-center t-left">
                                         <li className="pricing__area-item-icon">
-                                            <Image src="assets/img/icon/price-3.png" alt="" />
+                                            {/* <Image src="assets/img/icon/price-3.png" alt="" /> */}
                                         </li>
                                         <li>
                                             <h3>Premium</h3>

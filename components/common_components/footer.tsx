@@ -14,7 +14,7 @@ export default function Footer() {
                             <div className="footer__area-footer-widget">
                                 <div className="footer__area-logo">
                                     <a href="index.html">
-                                        <Image src="assets/img/footer-logo.png" alt=""  />
+                                        {/* <Image src="assets/img/footer-logo.png" alt=""  /> */}
                                     </a>
                                 </div>
                                 <div className="footer__area-content">

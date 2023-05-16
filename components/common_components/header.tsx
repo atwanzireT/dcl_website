@@ -124,12 +124,13 @@ function Header() {
                     {/* Hamburger Menu Start */}
                     <div className="hamburger-popup">
                         <div className="hamburger-close-btn">
-                            <Image src="assets/img/close.png" alt="" />
+                            {/* <Image src="assets/img/close.png" alt="" 
+                            width={100} height={100}/> */}
                         </div>
                         <div className="menu-box">
                             <div className="hamburger-popup-logo">
                                 <a href="index.html">
-                                    <Image src="assets/img/logo.png" alt="" />
+                                    {/* <Image src="assets/img/logo.png" alt="" width={100} height={100} /> */}
                                 </a>
                             </div>
                             <p className="pb-30">
@@ -138,7 +139,7 @@ function Header() {
                                 Maecenas diam justo, consectetur vitae enim non, maximus venenatis
                                 nisl. Pellentesque habitant morbi tristique senectus et
                             </p>
-                            <Image src="assets/img/bar.jpg" alt="" />
+                            {/* <Image src="assets/img/bar.jpg" alt="" /> */}
                             <div className="contact__info">
                                 <h3 className="mb-25">Contact Info</h3>
                                 <div className="contact__info-list">

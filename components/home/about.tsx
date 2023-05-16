@@ -35,7 +35,7 @@ export default function About() {
                                 <div className="about__area-right-list">
                                     <div className="about__area-right-list-item">
                                         <div className="about__area-right-list-item-icon">
-                                            <Image src="assets/img/icon/about-1.png" alt="" />
+                                            {/* <Image src="assets/img/icon/about-1.png" alt="" /> */}
                                         </div>
                                         <div className="about__area-right-list-item-text">
                                             <h4>Business improvement</h4>
@@ -43,7 +43,7 @@ export default function About() {
                                     </div>
                                     <div className="about__area-right-list-item center">
                                         <div className="about__area-right-list-item-icon">
-                                            <Image src="assets/img/icon/about-2.png" alt="" />
+                                            {/* <Image src="assets/img/icon/about-2.png" alt="" /> */}
                                         </div>
                                         <div className="about__area-right-list-item-text">
                                             <h4>Network Administration</h4>
@@ -51,7 +51,7 @@ export default function About() {
                                     </div>
                                     <div className="about__area-right-list-item">
                                         <div className="about__area-right-list-item-icon">
-                                            <Image src="assets/img/icon/about-3.png" alt="" />
+                                            {/* <Image src="assets/img/icon/about-3.png" alt="" /> */}
                                         </div>
                                         <div className="about__area-right-list-item-text">
                                             <h4>User Experience</h4>
