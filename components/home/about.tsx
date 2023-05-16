@@ -27,9 +27,14 @@ export default function About() {
                                     <p className="section-top">About Company</p>
                                     <h2>Making IT a part of your business</h2>
                                     <p>
-                                        Aliquam suscipit purus hendrerit erat auctor fermentum. Morbi
-                                        pharetra orci tortor, nec tempus quam posuere ac. Aenean dapibus
-                                        eget velit ut tristique.
+                                    Digital Chronicles Ltd is a forward-thinking company that offers digital 
+                                    and smart solutions to modern day development challenges. Our managed 
+                                    services will simplify the management of your ICT, making your business 
+                                    more productive and reliable. We deliver the best possible solutions and 
+                                    suggestions for Large, Medium and Small Businesses to achieve the best 
+                                    results with the help of best TECHNOLOGY and the best IT INFRASTRUCTURE. 
+                                    DIGITAL CHRONICLES LTD is the perfect partner for all organizations who
+                                     want their ICT infrastructure to get the most from their resources. 
                                     </p>
                                 </div>
                                 <div className="about__area-right-list">
@@ -72,7 +77,7 @@ export default function About() {
                                             <div className="about__area-right-contact-item-call-content">
                                                 <span>Phone :</span>
                                                 <p>
-                                                    <a href="tel:+123-568-4758">+123-568-4758</a>
+                                                    <a href="tel:+123-568-4758">+256 704936443/ +256 759412127</a>
                                                 </p>
                                             </div>
                                         </div>
