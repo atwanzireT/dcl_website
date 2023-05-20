@@ -40,7 +40,7 @@ export default function Home() {
       <Monitor/>
       <Counter/>
       <WhyUs/>
-      <Pricing/>
+      {/* <Pricing/> */}
       <Footer/>
     </div>
   )
