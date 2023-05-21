@@ -2,11 +2,13 @@ import Image from "next/image"
 import service_1 from "../img/icon/services-1.png"
 import service_2 from "../img/icon/services-2.png"
 import service_3 from "../img/icon/services-3.png"
+import Link from "next/link"
 export default function Services() {
     return (
         <>
             {/* Services Area Start */}
-            <div
+           <div id="services">
+           <div
                 className="services__area section-padding"
                 data-background="assets/img/shape.png"
             >
@@ -26,15 +28,15 @@ export default function Services() {
                                     <Image className="mx-auto mt-4" src={service_1} alt="" width={500} height={500} />
                                 </div>
                                 <h3>
-                                    <a className="text-lg" href="services-details.html">URBAN DEVELOPMENT <br /> ADVISORY SERVICES</a>
+                                    <Link className="text-lg" href="services-details.html">URBAN DEVELOPMENT <br /> ADVISORY SERVICES</Link>
                                 </h3>
-                                <p>
+                                <ul>
                                     <li className="list-square ms-5">Property identification services.</li>
                                     <li className="list-square ms-5">Street CCTV systems implementation.</li>
                                     <li className="list-square ms-5">Settlement management solutions.</li>
                                     <li className="list-square ms-5">Traffic management strategies.</li>
                                     <li className="list-square ms-5">Street orderliness initiatives.</li>
-                                </p>
+                                </ul>
                             </div>
                         </div>
                         <div className="col-xl-4 col-lg-4 col-md-6 md-mb-30">
@@ -43,14 +45,14 @@ export default function Services() {
                                     <Image className="mx-auto mt-4" src={service_2} alt="" width={500} height={500} />
                                 </div>
                                 <h3>
-                                    <a className="text-lg" href="services-details.html">EDUCATION INFRASTRACTURE <br /> DEVELOPMENT & DIGITAL LEARNING</a>
+                                    <Link className="text-lg" href="services-details.html">EDUCATION INFRASTRACTURE <br /> DEVELOPMENT & DIGITAL LEARNING</Link>
                                 </h3>
-                                <p>
+                                <ul>
                                     <li className="list-square ms-5">Installation of whiteboards, smart/intelligent boards, projectors, and automated bells.</li>
                                     <li className="list-square ms-5">Provision of electronic tablets and computers.</li>
                                     <li className="list-square ms-5">Training for teachers and learners in electronic teaching and learning.</li>
                                     <li className="list-square ms-5">ICT training for marginalized rural communities and women groups.</li>
-                                </p>
+                                </ul>
                             </div>
                         </div>
                         <div className="col-xl-4 col-lg-4 col-md-6">
@@ -59,19 +61,20 @@ export default function Services() {
                                     <Image className="mx-auto mt-4" src={service_3} alt="" width={500} height={500} />
                                 </div>
                                 <h3>
-                                    <a className="text-lg" href="services-details.html"> Managed IT Services and Outsourcing</a>
+                                    <Link className="text-lg" href="services-details.html"> Managed IT Services and Outsourcing</Link>
                                 </h3>
-                                <p>
+                                <ul>
                                     <li className="list-square ms-5">Proactive maintenance of IT environments, including servers, routers, switches, personal computers, software, and storage.</li>
                                     <li className="list-square ms-5">Capacity planning and software updates.</li>
                                     <li className="list-square ms-5">Addressing email and network problems, network connectivity issues, data backups, PC failures, server hardware, website issues, and virus cleaning and protection.</li>
-                                </p>
+                                </ul>
 
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+           </div>
             {/* Services Area End */}
         </>
 

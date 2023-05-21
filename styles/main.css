@@ -2072,7 +2072,7 @@ Banner
 }
 .banner__area-title h2 {
   color: #050707;
-  font-size: 90px;
+  font-size: 70px;
   line-height: 115px;
   font-weight: 800;
   margin-bottom: 45px;
@@ -3339,7 +3339,7 @@ Top Bar
 }
 .header__area-topbar-area {
   background: #050707;
-  padding: 12px 56px;
+  padding: 8px 36px;
 }
 .header__area-topbar-left {
   display: flex;

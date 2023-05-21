@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import Header from '@/components/common_components/header'
+import Navbar from '@/components/common_components/navigation'
 import Footer from '@/components/common_components/footer'
 import Banner from '@/components/home/banner'
 import About from '@/components/home/about'
@@ -33,15 +34,15 @@ export default function Home() {
         <script type="text/javascript" src='/scripts/swiper-bundle.min.js'></script>
         <script type="text/javascript" src='/scripts/wow.min.js'></script> */}
       </Head>
-      <Header/>
-      <Banner/>
-      <About/>
-      <Services/>
-      <Monitor/>
-      <Counter/>
-      <WhyUs/>
+      <Navbar />
+      <Banner />
+      <About />
+      <Services />
+      <Monitor />
+      <Counter />
+      <WhyUs />
       {/* <Pricing/> */}
-      <Footer/>
+      <Footer />
     </div>
   )
 }
