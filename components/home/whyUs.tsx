@@ -30,32 +30,32 @@ export default function WhyUs() {
                                         <div className="choose__ua-right-list">
                                             <div className="row">
                                                 <div className="col-sm-6 mb-30">
-                                                    <div className="choose__ua-right-list-icon">
+                                                    <div className="choose__ua-right-list-icon  choose__ua-right-list-icon-hover">
                                                         <i className="flaticon-technical-support" />
                                                         <h4>
-                                                            IT Consulting
-                                                            <br />
-                                                            Management
+                                                        Expertise and 
+                                                        <br />
+                                                        Experience
                                                         </h4>
                                                     </div>
                                                 </div>
                                                 <div className="col-sm-6 sm-mb-30">
-                                                    <div className="choose__ua-right-list-icon">
+                                                    <div className="choose__ua-right-list-icon  choose__ua-right-list-icon-hover">
                                                         <i className="flaticon-customer-service" />
                                                         <h4>
-                                                            Technology Support
-                                                            <br />
-                                                            Management
+                                                        Comprehensive 
+                                                        <br />
+                                                        Solutions
                                                         </h4>
                                                     </div>
                                                 </div>
                                                 <div className="col-sm-6 sm-mb-30">
-                                                    <div className="choose__ua-right-list-icon">
+                                                    <div className="choose__ua-right-list-icon  choose__ua-right-list-icon-hover">
                                                         <i className="flaticon-chip" />
                                                         <h4>
-                                                            It Programmer
-                                                            <br />
-                                                            Analyst
+                                                        Customized 
+                                                        <br />
+                                                        Approach
                                                         </h4>
                                                     </div>
                                                 </div>
@@ -63,9 +63,9 @@ export default function WhyUs() {
                                                     <div className="choose__ua-right-list-icon choose__ua-right-list-icon-hover">
                                                         <i className="flaticon-networking" />
                                                         <h4>
-                                                            Network
-                                                            <br />
-                                                            Specialist
+                                                        Customer Service 
+                                                        <br />
+                                                        and Support
                                                         </h4>
                                                     </div>
                                                 </div>

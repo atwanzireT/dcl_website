@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 function Header() {
     return (
@@ -13,14 +14,14 @@ function Header() {
                                     <li>
                                         <a href="#">
                                             <i className="flaticon-placeholder" />
-                                            BOMA , Mbarara Uganda
+                                            RUHARA ROAD, LUGAZI MBARARA
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <Link href="mailto:digitallighttech@gmail.com">
                                             <i className="flaticon-email" />
-                                            info.dcl@gmail.com
-                                        </a>
+                                            digitallighttech@gmail.com
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>

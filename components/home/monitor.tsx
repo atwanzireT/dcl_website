@@ -18,7 +18,7 @@ export default function Monitor() {
                                 <Image src={img1} alt="" width={500} height={500} />
                                 <div className="project__area-overly">
                                     <h3>
-                                        <a href="project-details.html">Cyber security</a>
+                                        <a href="project-details.html">Data Management</a>
                                     </h3>
                                     <p>IT Technology</p>
                                     <div className="project__area-icon">
@@ -35,7 +35,7 @@ export default function Monitor() {
                                 <Image src={img2} alt="" width={500} height={500}/>
                                 <div className="project__area-overly">
                                     <h3>
-                                        <a href="project-details.html">Data Recovery</a>
+                                        <a href="project-details.html">System Design</a>
                                     </h3>
                                     <p>Technology</p>
                                     <div className="project__area-icon">
@@ -49,10 +49,10 @@ export default function Monitor() {
                         </div>
                         <div className="col-xl-3 col-lg-4 col-md-6 xl-mb-30">
                             <div className="project__area-item project__area-item-hover">
-                                <Image src={img4} alt="" width={500} height={500}/>
+                                <Image src={img3} alt="" width={500} height={500}/>
                                 <div className="project__area-overly">
                                     <h3>
-                                        <a href="project-details.html">IT Management</a>
+                                        <a href="project-details.html">System Maintenence</a>
                                     </h3>
                                     <p>Technology</p>
                                     <div className="project__area-icon">
@@ -66,10 +66,10 @@ export default function Monitor() {
                         </div>
                         <div className="col-xl-3 col-lg-4 col-md-6">
                             <div className="project__area-item project__area-item-hover">
-                                <Image src={img3} alt="" width={500} height={500}/>
+                                <Image src={img4} alt="" width={500} height={500}/>
                                 <div className="project__area-overly project__area-item-hover">
                                     <h3>
-                                        <a href="project-details.html">Cloud Services</a>
+                                        <a href="project-details.html">PaperLess Classes</a>
                                     </h3>
                                     <p>IT Support</p>
                                     <div className="project__area-icon">

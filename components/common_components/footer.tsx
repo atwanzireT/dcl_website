@@ -19,10 +19,8 @@ export default function Footer() {
                                 </div>
                                 <div className="footer__area-content">
                                     <p>
-                                        Aliquam erat volutpat. In a porttitor lacus. Donec nisi ante,
-                                        laoreet non sodales ac, rhoncus vitae ipsum. Donec ut purus eu
-                                        nulla dapibus fringilla.Pellentesque metus massa, porttitor ac
-                                        mauris sit amet,
+                                        To create opportunities that promote sustained economic development, 
+                                        using digital technologies across all sectors and demographic segments.
                                     </p>
                                 </div>
                             </div>
@@ -35,16 +33,16 @@ export default function Footer() {
                                 <div className="footer__area-footer-menu">
                                     <ul>
                                         <li>
-                                            <a href="services-details.html">- Cyber Security</a>
+                                            <a href="#html">- Data Management</a>
                                         </li>
                                         <li>
-                                            <a href="services-details.html">- Data Recovery</a>
+                                            <a href="#html">- System Design</a>
                                         </li>
                                         <li>
-                                            <a href="services-details.html">- Business Support</a>
+                                            <a href="#html">- System Maintainence</a>
                                         </li>
                                         <li>
-                                            <a href="services-details.html">- Apps Development</a>
+                                            <a href="#html">- Paperless Classes</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -61,7 +59,7 @@ export default function Footer() {
                                             <i className="fas fa-phone-alt" />
                                         </div>
                                         <div className="footer__area-contact-info-item-text">
-                                            <a href="tel:+(141)-589-548">+(141)-589-548</a>
+                                            <a href="tel:+256704936443">+256 704936443</a>
                                         </div>
                                     </div>
                                     <div className="footer__area-contact-info-item d-inline-flex mb-20">
@@ -69,7 +67,7 @@ export default function Footer() {
                                             <i className="fas fa-envelope" />
                                         </div>
                                         <div className="footer__area-contact-info-item-text">
-                                            <a href="#">sarfox@gmail.com</a>
+                                            <a href="#">digitallighttech@gmail.com</a>
                                         </div>
                                     </div>
                                     <div className="footer__area-contact-info-item d-inline-flex">
@@ -77,7 +75,7 @@ export default function Footer() {
                                             <i className="fas fa-map-marker-alt" />
                                         </div>
                                         <div className="footer__area-contact-info-item-text">
-                                            <a href="#">Sandell St, London SE1 8NH, United Kingdom</a>
+                                            <a href="#">RUHARA ROAD, LUGAZI MBARARA</a>
                                         </div>
                                     </div>
                                 </div>
@@ -111,7 +109,7 @@ export default function Footer() {
                         <div className="col-xl-6 col-lg-6 col-md-7 md-mb-20">
                             <div className="footer__area-bottom-left">
                                 <p>
-                                    Copyright © 2022 - <a href="index.html">SarFox</a> All Right
+                                    Copyright © 2022 - <a href="index.html">DCL</a> All Right
                                     Reserved
                                 </p>
                             </div>

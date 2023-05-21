@@ -6,7 +6,7 @@ export default function About() {
     return (
         <>
             {/* About Area Start */}
-            <div className="about__area section-padding">
+            <div className="about__area section-padding -mt-48">
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-xl-6 col-lg-6 lg-mb-30">
@@ -38,31 +38,10 @@ export default function About() {
                                         want their ICT infrastructure to get the most from their resources.
                                     </p>
                                 </div>
-                                <div className="about__area-right-list">
-                                    <div className="about__area-right-list-item">
-                                        <div className="about__area-right-list-item-icon">
-                                            {/* <Image src="assets/img/icon/about-1.png" alt="" /> */}
-                                        </div>
-                                        <div className="about__area-right-list-item-text">
-                                            <h4>Business improvement</h4>
-                                        </div>
-                                    </div>
-                                    <div className="about__area-right-list-item center">
-                                        <div className="about__area-right-list-item-icon">
-                                            {/* <Image src="assets/img/icon/about-2.png" alt="" /> */}
-                                        </div>
-                                        <div className="about__area-right-list-item-text">
-                                            <h4>Network Administration</h4>
-                                        </div>
-                                    </div>
-                                    <div className="about__area-right-list-item">
-                                        <div className="about__area-right-list-item-icon">
-                                            {/* <Image src="assets/img/icon/about-3.png" alt="" /> */}
-                                        </div>
-                                        <div className="about__area-right-list-item-text">
-                                            <h4>User Experience</h4>
-                                        </div>
-                                    </div>
+                                <div>
+                                    <ul>
+                                        <li></li>
+                                    </ul>
                                 </div>
                                 <div className="about__area-right-contact">
                                     <div className="about__area-right-contact-item">

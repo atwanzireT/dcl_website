@@ -15,7 +15,7 @@ export default function Services() {
                         <div className="col-xl-12 col-lg-12">
                             <div className="services__area-title section-title">
                                 <p className="section-top">Best Services</p>
-                                <h2>Continuously we offer the best Services for progress!</h2>
+                                <h2>Smart solutions for smart Cities !</h2>
                             </div>
                         </div>
                     </div>
@@ -26,7 +26,7 @@ export default function Services() {
                                     <Image  className="mx-auto mt-4" src={service_1} alt="" width={500} height={500} />
                                 </div>
                                 <h3>
-                                    <a href="services-details.html">Cyber Security</a>
+                                    <a href="services-details.html">URBAN DEVELOPMENT <br/> ADVISORY SERVICES</a>
                                 </h3>
                                 <p>Phasellus aliquam fermentum tincidunt. Duis accumsan,</p>{" "}
                                 <a href="services-details.html">Read More</a>
@@ -38,7 +38,7 @@ export default function Services() {
                                     <Image className="mx-auto mt-4" src={service_2} alt="" width={500} height={500}/>
                                 </div>
                                 <h3>
-                                    <a href="services-details.html">Cloud Solutions</a>
+                                    <a href="services-details.html">EDUCATION INFRASTRACTURE <br/> DEVELOPMENT</a>
                                 </h3>
                                 <p>Phasellus aliquam fermentum tincidunt. Duis accumsan,</p>{" "}
                                 <a href="services-details.html">Read More</a>
@@ -50,7 +50,7 @@ export default function Services() {
                                     <Image className="mx-auto mt-4" src={service_3} alt="" width={500} height={500}/>
                                 </div>
                                 <h3>
-                                    <a href="services-details.html">Data Recovery</a>
+                                    <a href="services-details.html"> DIGITAL <br/><br/> LEARNING </a>
                                 </h3>
                                 <p>Phasellus aliquam fermentum tincidunt. Duis accumsan,</p>{" "}
                                 <a href="services-details.html">Read More</a>
