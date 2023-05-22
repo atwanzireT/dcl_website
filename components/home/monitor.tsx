@@ -3,6 +3,7 @@ import img1 from "../img/service.jpg"
 import img2 from "../img/service6.jpg"
 import img3 from "../img/service5.jpg"
 import img4 from "../img/service4.png"
+import Link from "next/link"
 
 // const img4 =  require("../img/monitoring-4.jpg");
 
@@ -18,14 +19,14 @@ export default function Monitor() {
                                 <Image src={img1} alt="" width={500} height={500} />
                                 <div className="project__area-overly">
                                     <h3>
-                                        <a href="project-details.html">Data Management</a>
+                                        <Link href="project-details.html">Data Management</Link>
                                     </h3>
                                     <p>IT Technology</p>
                                     <div className="project__area-icon">
-                                        <a href="project-details.html">
+                                        <Link href="project-details.html">
                                             {" "}
                                             <i className="flaticon-arrow-right" />
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -35,14 +36,14 @@ export default function Monitor() {
                                 <Image src={img2} alt="" width={500} height={500}/>
                                 <div className="project__area-overly">
                                     <h3>
-                                        <a href="project-details.html">System Design</a>
+                                        <Link href="project-details.html">System Design</Link>
                                     </h3>
                                     <p>Technology</p>
                                     <div className="project__area-icon">
-                                        <a href="project-details.html">
+                                        <Link href="project-details.html">
                                             {" "}
                                             <i className="flaticon-arrow-right" />
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -52,14 +53,14 @@ export default function Monitor() {
                                 <Image src={img3} alt="" width={500} height={500}/>
                                 <div className="project__area-overly">
                                     <h3>
-                                        <a href="project-details.html">System Maintenence</a>
+                                        <Link href="project-details.html">System Maintenence</Link>
                                     </h3>
                                     <p>Technology</p>
                                     <div className="project__area-icon">
-                                        <a href="project-details.html">
+                                        <Link href="project-details.html">
                                             {" "}
                                             <i className="flaticon-arrow-right" />
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -69,14 +70,14 @@ export default function Monitor() {
                                 <Image src={img4} alt="" width={500} height={500}/>
                                 <div className="project__area-overly project__area-item-hover">
                                     <h3>
-                                        <a href="project-details.html">PaperLess Classes</a>
+                                        <Link href="project-details.html">PaperLess Classes</Link>
                                     </h3>
                                     <p>IT Support</p>
                                     <div className="project__area-icon">
-                                        <a href="project-details.html">
+                                        <Link href="project-details.html">
                                             {" "}
                                             <i className="flaticon-arrow-right" />
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>

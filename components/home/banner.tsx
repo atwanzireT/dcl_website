@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Banner() {
     return (
         <>
@@ -9,9 +11,9 @@ export default function Banner() {
                             <div className="banner__area-title">
                                 <span>We Provide the best services</span>
                                 <h2>We proactively create and maintain the IT environment</h2>
-                                <a className="theme-btn" href="contact.html">
+                                <Link className="theme-btn" href="contact.html">
                                     Free Consulting
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>

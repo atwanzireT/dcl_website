@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Pricing() {
     return (
@@ -46,9 +47,9 @@ export default function Pricing() {
                                         </li>
                                     </ul>
                                 </div>{" "}
-                                <a className="price-btn" href="pricing.html">
+                                <Link className="price-btn" href="pricing.html">
                                     Discover More
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         <div className="col-xl-4 col-lg-4 col-md-6 md-mb-30">
@@ -82,9 +83,9 @@ export default function Pricing() {
                                         </li>
                                     </ul>
                                 </div>{" "}
-                                <a className="price-btn" href="pricing.html">
+                                <Link className="price-btn" href="pricing.html">
                                     Discover More
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         <div className="col-xl-4 col-lg-4 col-md-6">
@@ -118,9 +119,9 @@ export default function Pricing() {
                                         </li>
                                     </ul>
                                 </div>{" "}
-                                <a className="price-btn" href="pricing.html">
+                                <Link className="price-btn" href="pricing.html">
                                     Discover More
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
