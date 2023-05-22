@@ -29,6 +29,11 @@ const Navbar = () => {
                                 </div>
                             </div>
                         </div>
+                        <div className="">
+                            <Link href="mailto:digitallighttech@gmail.com">
+                                <EnvelopeIcon className='text-white w-7 h-7'/>
+                            </Link>
+                        </div>
                     </div>
                 </div>
                 <nav className='sticky'>
