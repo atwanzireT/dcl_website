@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function About_Banner() {
     return (
             <>
@@ -11,9 +13,9 @@ export default function About_Banner() {
                                     <div className="page__banner-menu">
                                         <ul>
                                             <li>
-                                                <a href="index.html">
+                                                <Link href="/">
                                                     <i className="flaticon-home-icon-silhouette" /> Home -{" "}
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li> About</li>
                                         </ul>

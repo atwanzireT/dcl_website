@@ -4,7 +4,7 @@ import { facebookIcon } from '../icons/facebook.png'
 import { twitterIcon } from '../icons/twitter.png'
 import { linkednIcon } from '../icons/linkedin.png'
 import Image from 'next/image';
-import { MapPinIcon } from '@heroicons/react/24/solid';
+import { EnvelopeIcon, MapPinIcon } from '@heroicons/react/24/solid';
 
 
 const Navbar = () => {
@@ -28,9 +28,6 @@ const Navbar = () => {
                                     RUHARO ROAD, LUGAZI
                                 </div>
                             </div>
-                        </div>
-                        <div className="">
-                            <div className='text-white mx-2'>digitallighttech@gmail.com</div>
                         </div>
                     </div>
                 </div>
