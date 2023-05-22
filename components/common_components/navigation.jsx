@@ -4,6 +4,7 @@ import { facebookIcon } from '../icons/facebook.png'
 import { twitterIcon } from '../icons/twitter.png'
 import { linkednIcon } from '../icons/linkedin.png'
 import Image from 'next/image';
+import { MapPinIcon } from '@heroicons/react/24/solid';
 
 
 const Navbar = () => {
@@ -16,51 +17,20 @@ const Navbar = () => {
     return (
         <>
             <div>
-                <div className="header__area-topbar-area">
-                    <div className="header__area-topbar custom-container">
-                        <div className="header__area-topbar-left">
-                            <div className="header__area-topbar-left-info md-mb-10">
-                                <ul>
-                                    <li>
-                                        <Link href="#">
-                                            <i className="flaticon-placeholder" />
-                                            RUHARA ROAD, LUGAZI MBARARA
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="mailto:digitallighttech@gmail.com">
-                                            <i className="flaticon-email" />
-                                            digitallighttech@gmail.com
-                                        </Link>
-                                    </li>
-                                </ul>
+                <div className='bg-gray-800 p-2'>
+                    <div className="flex">
+                        <div className="col">
+                            <div className='text-white mx-2 row'>
+                                <div className="col-auto ">
+                                    <MapPinIcon className='w-7 h-7 text-white' />
+                                </div>
+                                <div className="col-auto -ms-7">
+                                    RUHARO ROAD, LUGAZI
+                                </div>
                             </div>
                         </div>
-                        <div className="header__area-topbar-right">
-                            <div className="header__area-topbar-right-social">
-                                <ul>
-                                    <li>
-                                        <Link href="#">
-                                            <Image src={facebookIcon} width={100} height={100} />
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <Image src={twitterIcon} width={100} height={100} />
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <i className="fab fa-instagram" />
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <Image src={linkednIcon} width={100} height={100} />
-                                        </Link>
-                                    </li>
-                                </ul>
-                            </div>
+                        <div className="">
+                            <div className='text-white mx-2'>digitallighttech@gmail.com</div>
                         </div>
                     </div>
                 </div>
@@ -74,17 +44,17 @@ const Navbar = () => {
                         <div className={`navbar-menu ${isMobileMenuOpen ? 'active' : ''}`}>
                             <ul>
                                 <li>
-                                    <Link href="/about">
-                                        About
-                                    </Link>
-                                </li>
-                                <li>
                                     <Link href="/">
                                         Home
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/contact">
+                                    <Link href="#about">
+                                        About
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link href="#contact">
                                         Contact Us
                                     </Link>
                                 </li>

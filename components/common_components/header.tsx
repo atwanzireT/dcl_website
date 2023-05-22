@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Bars3Icon } from '@heroicons/react/24/solid'
-import Button from '@mui/material/Button'
 
 function Header() {
     return (
@@ -65,7 +64,6 @@ function Header() {
                 </div>
                 {/* TopBar Area Start */}
                 {/* Menu Bar Area Start */}
-                <Button variant="contained">Hello World</Button>
                 {/* Menu Bar Area Start */}
             </div>
             {/* Header Area End */}

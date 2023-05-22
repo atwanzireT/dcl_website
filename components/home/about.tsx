@@ -46,7 +46,7 @@ export default function About() {
                                     </div>
                                     <div className="about__area-right-contact">
                                         <div className="about__area-right-contact-item">
-                                            <a className="theme-btn" href="services.html">
+                                            <a className="theme-btn" href="/about">
                                                 Discover More
                                             </a>
                                         </div>

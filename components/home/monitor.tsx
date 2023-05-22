@@ -10,7 +10,7 @@ export default function Monitor() {
     return (
         <>
             {/* Monitoring Area Start */}
-            <div className="project__area">
+            <div className="project__area -mt-24">
                 <div className="container-fluid pl-0 pr-0">
                     <div className="row">
                         <div className="col-xl-3 col-lg-4 col-md-6 xl-mb-30">
