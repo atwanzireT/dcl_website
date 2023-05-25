@@ -11,6 +11,7 @@ import Counter from '@/components/home/counter'
 import WhyUs from '@/components/home/whyUs'
 import Pricing from '@/components/home/pricing'
 import Head from 'next/head'
+import Projects from '@/components/home/projects'
 
 
 
@@ -41,6 +42,7 @@ export default function Home() {
       <Monitor />
       <Counter />
       <WhyUs />
+      <Projects/>
       {/* <Pricing/> */}
       <Footer />
     </div>
