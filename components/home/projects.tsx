@@ -1,8 +1,7 @@
 import Image from "next/image"
-import img1 from "../img/service.jpg"
-import img2 from "../img/service6.jpg"
-import img3 from "../img/service5.jpg"
-import img4 from "../img/service4.png"
+import img1 from "../img/project_img.png"
+import img2 from "../img/project_img2.png"
+import img3 from "../img/project_img3.png"
 import Link from "next/link"
 
 // const img4 =  require("../img/monitoring-4.jpg");
@@ -10,7 +9,7 @@ import Link from "next/link"
 export default function Projects() {
     return (
         <>
-            <>
+            <div id="projects">
                 {/* Blog Area Start */}
                 <div className="blog__area section-padding">
                     <div className="container">
@@ -26,7 +25,7 @@ export default function Projects() {
                             <div className="col-xl-4 col-lg-6 xl-mb-30">
                                 <div className="blog__area-item">
                                     <div className="blog__area-image">
-                                        <img src="assets/img/blog-2.jpg" alt="" />
+                                        <Image src={img1} alt="" width={500} height={500} />
                                     </div>
                                     <div className="blog__area-content">
                                         <h3>
@@ -38,14 +37,14 @@ export default function Projects() {
                                             Chronicle’s maiden smart learning project in a rural setting.
                                             Digital learning is the solution to uplifting the level of rural schools to match global
                                             education standards.</p>{" "}
-                                        <a href="news-single.html">Read More</a>
+                                        {/* <a href="news-single.html">Read More</a> */}
                                     </div>
                                 </div>
                             </div>
                             <div className="col-xl-4 col-lg-6 lg-mb-30">
                                 <div className="blog__area-item">
                                     <div className="blog__area-image">
-                                        <img src="assets/img/blog-3.jpg" alt="" />
+                                        <Image src={img2} alt="" width={500} height={500} />
                                     </div>
                                     <div className="blog__area-content">
                                         <h3>
@@ -55,17 +54,17 @@ export default function Projects() {
                                         </h3>
                                         <p>‘When Teachers become ICT Students, schools become smarter’. An
                                             education philosophy by DCL demonstrated at Kabateraine staff training.</p>{" "}
-                                        <a href="news-single.html">Read More</a>
+                                        {/* <a href="news-single.html">Read More</a> */}
                                     </div>
                                 </div>
                             </div>
                             <div className="col-xl-4 col-lg-6">
                                 <div className="blog__area-item">
                                     <div className="blog__area-image">
-                                        <img src="assets/img/blog-1.jpg" alt="" />
+                                        <Image src={img3} alt="" width={500} height={500} />
                                     </div>
                                     <div className="blog__area-content">
-                                       
+
                                         <h3>
                                             <a href="news-single.html">
                                                 YOUTH START-UP ICT INTEGRATION
@@ -73,7 +72,7 @@ export default function Projects() {
                                         </h3>
                                         <p>DCL Staff celebrating a successful ICT-Integrated Youth Start-Up bootcamp.
                                             An initiative of Hive Colab.</p>{" "}
-                                        <a href="news-single.html">Read More</a>
+                                        {/* <a href="news-single.html">Read More</a> */}
                                     </div>
                                 </div>
                             </div>
@@ -81,7 +80,7 @@ export default function Projects() {
                     </div>
                 </div>
                 {/* Blog Area End */}
-            </>
+            </div>
 
         </>
 
